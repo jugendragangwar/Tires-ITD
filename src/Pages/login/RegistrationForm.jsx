@@ -42,7 +42,6 @@ const RegistrationForm = () => {
         headers: {
           "Content-Type": "application/json",
           "ngrok-skip-browser-warning": "69420",
-          "Content-Type": "application/json",
         },
       });
       if (response.status === 200 || response.status === 201) {
