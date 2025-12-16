@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import wheel from "../../../public/wheel.gif";
 import { useNavigate } from "react-router-dom";
 import Navbar from '../../components/navbar/Header'
-import Footer from '../../components/Footer/NewFooter'
+import Footer from '../../components/Footer/Footer'
 
 const StepperWithContent = () => {
   const [activeStep, setActiveStep] = useState(0);
