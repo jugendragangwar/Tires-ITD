@@ -41,7 +41,6 @@ const RegistrationForm = () => {
       const response = await axios.post(`${BaseUrl}${Registration}`, formData, {
         headers: {
           "Content-Type": "application/json",
-          "ngrok-skip-browser-warning": "69420",
         },
       });
       if (response.status === 200 || response.status === 201) {
