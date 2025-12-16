@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Img from "../../assets/Tyre_Login.png";
 import { BaseUrl } from '../../components/BaseUrl/BaseUrl'
 import Navbar from '../../components/navbar/Header'
-import Footer from '../../components/Footer/NewFooter'
+import Footer from '../../components/footer/NewFooter'
 
 const ForgotPassword = () => {
   const [email, setEmail] = useState("");

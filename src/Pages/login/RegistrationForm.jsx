@@ -8,7 +8,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Registration } from "../../Constants/Constant";
 import Navbar from "../../components/navbar/Header";
-import Footer from '../../components/Footer/NewFooter'
+import Footer from '../../components/footer/NewFooter'
 import Img from '../../assets/Images/Register.webp'
 import { FaBuilding, FaUser, FaEnvelope, FaPhone, FaLock, FaFileInvoice, FaIdCard } from "react-icons/fa";
 

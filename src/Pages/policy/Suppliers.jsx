@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/navbar/Header';
-import Footer from '../../components/Footer/NewFooter';
+import Footer from '../../components/footer/NewFooter';
 
 function Suppliers() {
   return (

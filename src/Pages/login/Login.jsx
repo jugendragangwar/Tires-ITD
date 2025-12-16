@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { BaseUrl } from "../../components/BaseUrl/BaseUrl";
 import Header from "../../components/navbar/Header";
-import Footer from "../../components/Footer/NewFooter";
+import Footer from "../../components/footer/NewFooter";
 import { usePasswordToggle } from "../../Constants/Constant";
 import SignUp from "../../assets/Images/SignUp.webp";
 

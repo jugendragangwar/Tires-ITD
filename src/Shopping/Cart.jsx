@@ -1,7 +1,7 @@
 import React from "react";
 import { FaMinus, FaPlus, FaTrashAlt } from "react-icons/fa";
 import Navbar from "../components/navbar/Header";
-import Footer from "../components/Footer/NewFooter";
+import Footer from "../components/footer/NewFooter";
 
 const CartPage = () => {
   return (

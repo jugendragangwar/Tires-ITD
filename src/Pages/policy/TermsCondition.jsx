@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../../components/Footer/NewFooter';
+import Footer from '../../components/footer/NewFooter';
 import Navbar from '../../components/navbar/Header';
 import { TermsAndConditionData } from '../../Constants/Constant';
 

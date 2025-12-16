@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaEnvelope, FaFacebookF, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
-import Footer from '../../components/Footer/NewFooter';
+import Footer from '../../components/footer/NewFooter';
 import Navbar from '../../components/navbar/Header';
 import axios from 'axios';
 import { BaseUrl } from '../../components/BaseUrl/BaseUrl';

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/navbar/Header";
-import NewFooter from "../components/Footer/NewFooter";
+import NewFooter from "../components/footer/NewFooter";
 import ProductBanner from "../assets/Images/ProductBanner.webp";
 import Product1 from "../assets/Images/Product1.webp";
 import Product2 from "../assets/Images/Product2.webp";
