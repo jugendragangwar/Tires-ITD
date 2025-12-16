@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Poppins", serif;
+}
+
+
+.Next-icon {
+    @apply absolute right-4 top-1/2 transform -translate-y-1/2 bg-blue-900 p-1 sm:p-2 sm:text-xl rounded-full text-white z-10;
+}
+
+.Prev-icon {
+    @apply absolute left-4 top-1/2 transform -translate-y-1/2 bg-blue-900 p-1 sm:p-2 sm:text-xl rounded-full text-white z-10
+}
+
+.Section-Margin {
+    @apply mt-6 sm:mt-8 md:mt-20;
+}
+
+.Main-container {
+    @apply container mx-auto;
+}
+
+
+/* Main Heading */
+.main-Heading {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .main-Heading {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-Heading {
+        font-size: 18px;
+    }
+}
+
+/* Sub Heading */
+.Heading {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .Heading {
+        font-size: 20px;
+        font-weight: 400;
+
+    }
+}
+
+@media (max-width: 480px) {
+    Heading {
+        font-size: 15px;
+        font-weight: 300;
+    }
+}
+
+
+
+
+/* Grid */
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+@media (max-width: 768px) {
+    .Grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .Grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.Input_Box {
+    @apply p-2 w-full border border-blue-500 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-all placeholder-gray-500
+}
