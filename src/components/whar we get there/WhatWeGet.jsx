@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar';
-import Footer from '../Footer/Footer';
+import Footer from '../footer/Footer';
 import itd from '../../assets/IDT (1).png'
 
 const WhatWeGet = () => {

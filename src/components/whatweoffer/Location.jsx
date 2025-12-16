@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import Navbar from '../navbar/Navbar';
-import Footer from '../Footer/Footer';
+import Footer from '../footer/Footer';
 
 // Custom icon for markers
 const customIcon = new L.Icon({

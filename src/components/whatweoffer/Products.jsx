@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
 import tayar from '../../assets/tayar.png'
-import Footer from '../Footer/Footer';
+import Footer from '../footer/Footer';
 import Remote from '../../assets/RemoteProduct.png';
 
 

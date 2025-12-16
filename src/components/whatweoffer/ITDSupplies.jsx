@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar';
-import Footer from '../Footer/Footer';
+import Footer from '../footer/Footer';
 import carservice from '../../assets/carservice.jpg';
 import first from '../../assets/first.jpg';
 import second from '../../assets/second.jpg';

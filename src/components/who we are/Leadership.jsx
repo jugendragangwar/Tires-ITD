@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar';
-import Footer from '../Footer/Footer';
+import Footer from '../footer/Footer';
 import men from '../../assets/men.png'
 import founder from '../../assets/founder.png';
 import team from "../../assets/team.png";

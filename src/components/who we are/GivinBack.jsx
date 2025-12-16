@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar';
 import { FaCheck } from "react-icons/fa";
-import Footer from '../Footer/Footer';
+import Footer from '../footer/Footer';
 import { FaBoxOpen } from "react-icons/fa";
 import { GiFlatTire } from "react-icons/gi";
 

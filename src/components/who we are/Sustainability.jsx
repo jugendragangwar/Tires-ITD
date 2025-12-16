@@ -5,7 +5,7 @@ import { TbJewishStar } from "react-icons/tb";
 import { LuUsers } from "react-icons/lu";
 import { SlHeart } from "react-icons/sl";
 import { FaEye } from "react-icons/fa";
-import Footer from '../Footer/Footer';
+import Footer from '../footer/Footer';
 import men from '../../assets/men.png';
 
 const Sustainability = () => {

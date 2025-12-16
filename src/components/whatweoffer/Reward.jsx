@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar';
-import Footer from '../Footer/Footer';
+import Footer from '../footer/Footer';
 import { IoMdSettings } from "react-icons/io";
 import { FaTrophy } from "react-icons/fa";
 import { AiFillTool } from "react-icons/ai";
